@@ -1,0 +1,23 @@
+{
+  "name": "ghcjs-game-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "stack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syocy/ghcjs-game-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syocy/ghcjs-game-example/issues"
+  },
+  "homepage": "https://github.com/syocy/ghcjs-game-example#readme"
+}
