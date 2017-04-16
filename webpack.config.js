@@ -1,6 +1,4 @@
 const webpack = require('webpack')
-const ClosureCompilerPlugin = require('webpack-closure-compiler')
-const ClosureCompiler = require('google-closure-compiler-js').webpack
 
 const fs = require('fs')
 const path = require('path')
@@ -34,45 +32,6 @@ module.exports = (() => {
                 },
                 mangle: false
             })
-            // new ClosureCompiler({
-            //     // options: {
-            //     //     languageIn: 'ECMASCRIPT6',
-            //     //     languageOut: 'ECMASCRIPT5',
-            //     //     compilationLevel: 'ADVANCED',
-            //     //     warningLevel: 'VERBOSE'
-            //     // }
-            // })
-            // new ClosureCompilerPlugin({
-            //     compiler: {
-            //         language_in: 'ECMASCRIPT6',
-            //         language_out: 'ECMASCRIPT5',
-            //         compilation_level: 'ADVANCED',
-            //         externs: path.join(STACK_BIN_DIR, STACK_EXEC_DIRS[0], 'all.js.externs')
-            //     },
-            //     concurrency: 3
-            // })
         ]
     }
 })()
-
-// module.exports = {
-//     entry: './js/app.js',
-//     entry: {
-//         app: './js/app.js',
-// 
-//     },
-//     output: {
-//         filename: './target/bundle.js'
-//     },
-//     plugins: [
-//         new ClosureCompilerPlugin({
-//             compiler: {
-//                 language_in: 'ECMASCRIPT6',
-//                 language_out: 'ECMASCRIPT5',
-//                 compilation_level: 'ADVANCED',
-//                 externs: path.join()
-//             },
-//             concurrency: 3
-//         })
-//     ]
-// }
