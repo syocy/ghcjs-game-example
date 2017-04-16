@@ -22,7 +22,7 @@ library
 executable ghcjs-game-example-exe
   hs-source-dirs:      app
   main-is:             Main.hs
-  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N -DGHCJS_BROWSER
   build-depends:       base
                      , ghcjs-game-example
                      , ghcjs-dom

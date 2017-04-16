@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/syocy/ghcjs-game-example/issues"
   },
-  "homepage": "https://github.com/syocy/ghcjs-game-example#readme"
+  "homepage": "https://github.com/syocy/ghcjs-game-example#readme",
+  "dependencies": {
+    "craftyjs": "^0.8.0"
+  },
+  "devDependencies": {
+    "webpack": "^2.4.1"
+  }
 }
