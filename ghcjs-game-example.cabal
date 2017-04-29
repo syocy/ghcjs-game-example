@@ -51,9 +51,7 @@ executable dom-exe
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N -DGHCJS_BROWSER
   build-depends:       base
                      , ghcjs-base
-                     , jsaddle
                      , lens
-                     , mtl
                      , ghcjs-dom
   default-language:    Haskell2010
 
